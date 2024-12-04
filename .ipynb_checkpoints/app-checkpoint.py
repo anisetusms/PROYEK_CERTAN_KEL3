@@ -12,7 +12,7 @@ st.header('Hewan Classification CNN Model')
 Hewan_names = ['CHEETAH', 'HARIMAU', 'MACAN_TUTUL', 'SINGA']
 
 # Memuat model yang telah disimpan
-model = load_model('Hewan_Recog_Model.keras')
+model = load_model('Image_classify.keras')
 
 # Fungsi untuk mengklasifikasikan gambar
 def classify_images(image_path):
